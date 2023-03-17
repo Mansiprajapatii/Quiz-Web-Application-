@@ -1,0 +1,21 @@
+ .score-board{
+    /* height: 40px;
+    width: 200px; */
+
+    max-width: 700px;
+	height: 80%;
+	margin-top: 95px; 
+	padding: 50px;	
+	border-radius: 50px;
+   
+} 	
+.s-heading{
+    margin-left: 33%;   
+	/* margin-top: -10px; */
+}
+.score{
+	margin-left: 45%;
+}
+.s-text{
+	margin-left: 34%;
+}

@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+.quizapp{
+	margin: 0;
+	padding: 20px;
+	font-size: 14px;
+	font-family: Helvetica;
+	/* background: #ccc9f7; */
+    /* background: #181463; */
+    /* height: 90%; */
+  
+}
+.current-question{
+    margin-left: 40%;
+    font-weight: bold;
+	color: #ab9506;
+}
+.qestion{
+	font-size: 20px;
+	/* margin: 0; */
+    margin-top: 35px;
+	padding-bottom: 30px;
+	color: #000000;
+}
+
+.quize{
+	max-width: 700px;
+	width: 100%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+	/* margin: 50px auto; */
+	margin: 50px; 
+	padding: 50px;
+	background: #ffffff;
+	border-radius: 10px;
+}
+.ullist{
+	margin: 0;
+	list-style: none;
+	color: #6e6bb5;
+	border: 1px solid #dddcec;
+	padding: 20px;
+	border-radius: 10px;
+	background: #ffffff;
+}
+ul li+li{
+	margin-top: 16px;
+	border-top: 1px solid #dddcec;
+	padding-top: 16px;
+}
+ul li input[type="radio"] {
+    display: none;
+}
+ul li input[type="radio"]+label{
+    position:relative;
+    padding-left: 25px;
+}
+ul li input[type="radio"]+label::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    background: #ffffff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 1px;
+    border: 1px solid #7c79c7;
+} 
+ul li input[type="radio"]:checked+label::before {
+    content: "";
+    background: #2f0deb;
+    border-color: #010856;
+}
+
+ul li input[type="radio"]:checked+label::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 50%;
+}
+label{
+	font-size: 15px;
+	cursor: pointer;
+}
+.footer-button{
+	margin-top: 20px;
+}
+.btn,
+.nextBtn,
+.submitBtn,
+.backBtn{
+
+	padding: 14px 30px;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10%;
+	background-color: #1b15d3da;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight:bold ;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	transition: all .3s ease-in-out;
+}
+.backBtn{
+	margin-left: 23%;
+}
+
+.btn:hover, 
+.nextBtn:hover,
+.submitBtn:hover,
+.backBtn:hover{
+    box-shadow: 0 14px 18px rgba(82, 76, 255, 0.28);
+}
+.question-bar.hidden{
+	display: none;
+}

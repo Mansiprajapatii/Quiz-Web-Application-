@@ -1,0 +1,31 @@
+.countdown-timer{
+    width: 25%;
+    height: 15%; 
+    /* background-color: rgb(238, 233, 243); */
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 17%;
+    font-size:250%;
+    font-weight: bolder;
+}
+.countdown-timer span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.two-numbers {
+    width: 2ch;
+}
+
+.time-text{
+    width: 80%;
+    height: 15%;
+    margin-top: -5%;
+    font-size: 120%;
+    /* background: rgb(128, 4, 4); */
+    color: rgb(219, 13, 13);
+}
+.auto-submit{
+    
+}
+
